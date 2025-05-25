@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+.barra_lateral{
+    width: 60px;
+    height: 150%;
+    background-color: rgb(24, 56, 17);
+    color: white;
+    position: absolute;
+    top: 0;
+    left:0;
+    text-align: center;
+    padding-top: 20px;
+}  
+.barra_lateral h1{
+    display: block;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.cont1{
+    margin-left: 60px;
+}
+.esp{
+    background-color: whitesmoke;
+    height: 60px;
+    padding: 20px;
+}
+.nav {
+    display: inline-block;
+}
+.nav h1{
+    display: inline;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.telefono{
+    display: inline;
+    color: rgb(2, 212, 117);
+    font-weight: bold;
+    font-size: 30px;
+}
+.dos{
+    padding: 10px;
+} 
+.left, .datos{
+    display: inline-block;
+    width: 48%;
+}
+.left{
+    /* color: rgb(236, 61, 61); */
+
+    width: 48%;
+    height: 480px;
+    background-image: url('images-dentist.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.relleno{
+    padding: 5px;
+    border-radius: 1px;
+    margin-top: 10px;
+}
+.relleno h1{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 40px;
+    color: white;
+}
+.relleno >h2{
+    margin-left: 15px;
+    font-size: 40px;
+    color:#057c55;
+}
+.relleno p{
+    /* margin-bottom: 10px; */
+    margin-left: 15px;
+    font-size: 30px;
+    color: white;
+}
+button{
+    padding: 8px 30px;
+    font-size: 25px;
+    margin-left: 30px;
+    border-radius: 48%;
+    border: none;
+    background-color: #057517;
+}
+.bton2{
+    margin-left: 40px;
+    background-color: rgba(21, 111, 189, 0.027);
+    border: 3px solid #057517;
+    color: #057c55;
+}
+.datos{
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 30px;
+    border: none;
+    border-radius: 1px;
+}
+.datos h1{
+    color: #057c55;
+    margin-bottom: 20px;
+}
+.llenar{
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(240, 237, 237);
+    color: rgb(20, 20, 20);
+}
+.submit-btn{
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+}
